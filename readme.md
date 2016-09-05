@@ -9,3 +9,11 @@ Requires npm, and gettext to be installed and command msgfmt globally available,
 - Pull this repo, run `npm install` 
 - put example.xlsx in the root of the repo
 - run `exceltomo convert example.xslx`, po and mo files should show up in the root directory.
+
+## Structure of expected excel file
+
+| language | key    | string   |
+|----------|--------|----------|
+| en_GB    | potato | potato   |
+| pt_PT    | potato | batata   |
+| de_DE    | potato | kartofel |
