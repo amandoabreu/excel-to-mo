@@ -86,7 +86,7 @@ let excelToPo = (input, output) => {
 }
 
 program
-	.version('0.0.1')
+	.version('1.0.1')
   	.command('convert [input]')
   	.description('Convert excel to mo')
   	.action(excelToPo);
