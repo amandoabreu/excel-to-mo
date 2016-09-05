@@ -1,0 +1,2 @@
+msgid "potato"
+msgstr "pomme"

@@ -1,0 +1,4 @@
+msgid "potato"
+msgstr "kartofel"
+msgid "other"
+msgstr "andere"

@@ -1,0 +1,4 @@
+msgid "potato"
+msgstr "potato"
+msgid "other"
+msgstr "other"

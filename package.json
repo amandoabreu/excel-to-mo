@@ -1,0 +1,31 @@
+{
+  "name": "excel-to-mo",
+  "version": "1.0.0",
+  "description": "Convert excel files to mo files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "exceltomo": "index.js"
+  },
+  "keywords": [
+    "po",
+    "files",
+    "mo",
+    "files",
+    "wordpress",
+    "excel"
+  ],
+  "author": "Amando Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "csvtojson": "^1.0.0",
+    "fs": "0.0.2",
+    "gettext-parser": "^1.2.0",
+    "glob": "^7.0.5",
+    "node-xlsx": "^0.7.2",
+    "promise": "^7.1.1"
+  }
+}
