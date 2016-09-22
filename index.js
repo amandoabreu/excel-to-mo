@@ -57,7 +57,7 @@ let excelToPo = (input, output) => {
 			});
 			for(var y = 0; y < strings[keys[x]].length; y++){
 				output += 'msgid "'  + strings[keys[x]][y]['key']+ '"' + "\n";
-				output += 'msgstr "' + strings[keys[x]][y]['string'] + '"' + "\n";
+				output += 'msgstr "' + strings[keys[x]][y]['string'] + '"' + "\n\n";
 			}
 			fs.appendFile(keys[x]+'.po', output, function (err) {
 
